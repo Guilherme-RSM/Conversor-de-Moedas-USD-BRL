@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+*{
+    margin:0;
+    padding:0;
+    text-align:center;
+    font-family: calibri;
+    font-size:20px;
+
+}
+
+body {
+    background-image:url(../img/bg-money.jpg);
+    color:white;
+    animation: fundoAnimado linear 90s infinite;
+}
+.container{
+    height: 100vh;
+   
+}
+
+.gradient {
+    background: rgb(61, 106, 59);
+    background: radial-gradient(
+      circle,
+      rgba(61, 106, 59, 0.7399334733893557) 0%,
+      rgba(2, 4, 5, 1) 100%
+    );
+}
+
+#conversor{
+    background: rgba(255, 255, 255, 0.021);
+box-shadow: 0 8px 32px 0 rgba(24, 24, 26, 0.37);
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 1px );
+border-radius: 0 0 10px 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+margin: 0 30px 0 30px}
+    
+h1{
+    font-family: 'Russo One', sans-serif;
+    font-size:2.5em;
+    padding:3%;
+    text-shadow: 6px 3px 2px rgba(0, 0, 0, 0.575);
+}
+
+p{
+}
+
+
+
+input {
+    width: 25%;
+    border-radius: 5px;
+    outline: none;
+    margin-top: 20px;
+  }
+
+button {
+    padding:5px;
+    border-radius:10px;
+}
+
+.money {
+    background-image: url("../img/money-fly.gif");
+    background-repeat: no-repeat;
+    padding: 60px;
+    background-size: 100px;
+    background-position: center;
+  }
+
+  #valorConvertido{
+font-size: 2em;
+text-transform: uppercase;
+text-shadow: -2px  2px rgba(0, 0, 0, 0.822);
+}
+
+@keyframes fundoAnimado {
+    0%{
+        background-position: 0 0;
+
+    }
+    100%{
+        background-position: 100%;
+    }
+}
